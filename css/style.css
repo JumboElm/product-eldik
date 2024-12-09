@@ -61,13 +61,13 @@ body {
 }
 
 .sign-up {
-  background-color: #28a745;
+  background-color: #02897a;
   color: #fff;
   border: none;
 }
 
 .sign-up:hover {
-  background-color: #218838;
+  background-color: #22daa9;
 }
 
 .product {
@@ -80,7 +80,7 @@ body {
   margin-top: 20px;
 }
 
-.product-description {
+.product-container {
   max-width: 50%;
 }
 
@@ -103,7 +103,7 @@ body {
 }
 
 .primary-btn {
-  background-color: #007bff;
+  background-color: #02897a;
   color: #fff;
   padding: 12px 25px;
   font-weight: bold;
@@ -111,7 +111,7 @@ body {
 }
 
 .primary-btn:hover {
-  background-color: #0056b3;
+  background-color: #22daa9;
 }
 
 .secondary-btn {
