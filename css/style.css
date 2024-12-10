@@ -14,15 +14,13 @@ body {
 }
 
 .header {
-  background-color: #fff;
-  padding: 15px 20px;
-  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-  position: sticky;
-  top: 0;
-  z-index: 1000;
   display: flex;
   justify-content: space-between;
   align-items: center;
+  padding: 20px 40px;
+  background-color: #ffffff;
+  border-bottom: 1px solid #e5e5e5;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
 .header-logo {
@@ -130,4 +128,80 @@ body {
 .product-img {
   max-width: 100%;
   height: auto;
+}
+
+.for {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  min-height: 50vh;
+  padding: 20px;
+  background-color: #f9f9f9;
+}
+
+.for-container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.for h2 {
+  font-size: 28px;
+  font-weight: bold;
+  color: #333;
+  margin-bottom: 40px;
+}
+
+.for-item {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.for-item-title {
+  text-align: center;
+  background-color: #ffffff;
+  border-radius: 8px;
+  padding: 20px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s;
+  width: 200px;
+}
+
+.for-item-title :hover {
+  transform: translateY(-10px);
+}
+
+.for-img {
+  font-size: 36px;
+  margin-bottom: 10px;
+}
+
+.for-item-title h3 {
+  font-size: 18px;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.for-item-title p {
+  font-size: 14px;
+  color: #666;
+}
+
+.for-btn {
+  display: inline-block;
+  padding: 15px 30px;
+  background-color: #02897a;
+  color: #ffffff;
+  font-size: 16px;
+  border-radius: 4px;
+  text-decoration: none;
+  margin-bottom: 20px;
+  transition: background-color 0.3s;
+}
+
+.for-btn:hover {
+  background-color: #22daa9;
 }
