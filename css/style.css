@@ -214,3 +214,75 @@ body {
 .for-btn:hover {
   background-color: #22daa9;
 }
+
+.about-section {
+  display: flex;
+  margin-bottom: 40px;
+}
+.about-section-sec {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 20px 0;
+}
+.about-text {
+  flex: 1;
+  padding: 20px;
+}
+
+.about-text h2 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.about-text p {
+  margin-bottom: 10px;
+}
+.about-text-sec {
+  order: 2;
+  flex: 1;
+  margin-left: 40px;
+  float: right;
+}
+.about-text-sec p {
+  font-size: 16px;
+  line-height: 1.5;
+}
+.about-text-sec h2 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+.image-about {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.image-about img {
+  max-width: 80%;
+  height: auto;
+}
+
+.image-about-sec {
+  order: 1;
+  flex: 1;
+  text-align: center;
+  float: left;
+}
+.about-list {
+  list-style: none;
+  padding: 0;
+}
+
+.about-list li {
+  margin-bottom: 10px;
+  display: flex;
+  align-items: center;
+}
+
+.about-list li img {
+  width: 20px;
+  height: 20px;
+  margin-right: 10px;
+}
