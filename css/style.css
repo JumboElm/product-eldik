@@ -1,5 +1,5 @@
 body {
-  font-family: Arial, sans-serif;
+  font-family: "Montserrat", serif;
   margin: 0;
   padding: 0;
   background-color: #f7f9fc;
@@ -109,7 +109,7 @@ body {
   gap: 15px;
 }
 
-.primary-btn {
+.product-primary-btn {
   background-color: #02897a;
   color: #fff;
   padding: 12px 25px;
@@ -117,11 +117,11 @@ body {
   border: none;
 }
 
-.primary-btn:hover {
+.product-primary-btn:hover {
   background-color: #22daa9;
 }
 
-.secondary-btn {
+.product-secondary-btn {
   background-color: transparent;
   color: #007bff;
   padding: 12px 25px;
@@ -129,7 +129,7 @@ body {
   font-weight: bold;
 }
 
-.secondary-btn:hover {
+.product-secondary-btn:hover {
   background-color: #007bff;
   color: #fff;
 }
