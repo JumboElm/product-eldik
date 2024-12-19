@@ -292,9 +292,10 @@ body {
 }
 
 .process {
+  margin-right: 50px;
   justify-content: center;
   align-items: center;
-  display: grid;
+  display: flex;
   text-align: center;
   background: #fff;
   padding: 50px 20px;
@@ -400,7 +401,7 @@ body {
   justify-content: center;
   align-items: center;
   margin-top: 120px;
-  margin-left: 230px;
+  margin-left: 290px;
 
   background: #00b894;
   color: white;
@@ -414,4 +415,77 @@ body {
 
 .process-button:hover {
   background: #019870;
+}
+.strategies-container {
+  width: 90%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.strategies {
+  text-align: center;
+  padding: 50px 0;
+}
+
+.strategies h2 {
+  font-size: 2.5rem;
+  margin-bottom: 10px;
+}
+
+.strategies p {
+  font-size: 1.2rem;
+  color: #666;
+  margin-bottom: 40px;
+}
+
+.strategies-cards {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.strategies-card {
+  background: #fff;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  max-width: 300px;
+  text-align: left;
+  transition: transform 0.3s;
+}
+
+.strategies-card:hover {
+  transform: translateY(-5px);
+}
+
+.strategies-card img {
+  width: 100%;
+  height: auto;
+}
+
+.strategies-card-content {
+  padding: 20px;
+}
+
+.strategies-card-content h3 {
+  font-size: 1.5rem;
+  color: #333;
+  margin: 0 0 10px;
+}
+
+.strategies-card-content p {
+  color: #666;
+  margin: 0 0 20px;
+  font-size: 0.9rem;
+}
+
+.strategies-card-content a {
+  text-decoration: none;
+  color: #007bff;
+  font-weight: bold;
+}
+
+.strategies-card-content a:hover {
+  text-decoration: underline;
 }
