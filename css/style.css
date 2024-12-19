@@ -293,16 +293,17 @@ body {
 
 .process {
   margin-right: 50px;
-  justify-content: center;
-  align-items: center;
   display: flex;
-  text-align: center;
   background: #fff;
   padding: 50px 20px;
   border-radius: 10px;
-  max-width: 1200px;
   margin: 20px;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+.process-container {
+  justify-content: center;
+  align-items: center;
+  text-align: center;
 }
 
 .process h2 {
@@ -397,12 +398,10 @@ body {
 .process-button {
   transform: translate(-50%, -50%);
   display: flex;
-
   justify-content: center;
   align-items: center;
   margin-top: 120px;
-  margin-left: 290px;
-
+  margin-left: 410px;
   background: #00b894;
   color: white;
   border: none;
@@ -416,15 +415,16 @@ body {
 .process-button:hover {
   background: #019870;
 }
+
+.strategies {
+  display: flex;
+  text-align: center;
+  padding: 50px 0;
+}
 .strategies-container {
   width: 90%;
   max-width: 1200px;
   margin: 0 auto;
-}
-
-.strategies {
-  text-align: center;
-  padding: 50px 0;
 }
 
 .strategies h2 {
