@@ -423,7 +423,7 @@ body {
 }
 .strategies-container {
   width: 90%;
-  max-width: 1200px;
+  max-width: 990px;
   margin: 0 auto;
 }
 
@@ -478,18 +478,12 @@ body {
   margin: 0 0 10px;
 }
 
+.strategies-card-content h3:hover {
+  color: #007bff;
+}
+
 .strategies-card-content p {
   color: #666;
   margin: 0 0 20px;
   font-size: 0.9rem;
-}
-
-.strategies-card-content a {
-  text-decoration: none;
-  color: #007bff;
-  font-weight: bold;
-}
-
-.strategies-card-content a:hover {
-  text-decoration: underline;
 }
