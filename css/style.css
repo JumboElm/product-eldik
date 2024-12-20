@@ -323,7 +323,7 @@ body {
 .process-cards {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  gap: 40px;
+  gap: 100px;
   justify-content: center;
   align-items: center;
 }
