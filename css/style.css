@@ -420,6 +420,7 @@ body {
   display: flex;
   text-align: center;
   padding: 50px 0;
+  height: 400x;
 }
 .strategies-container {
   width: 90%;
@@ -486,4 +487,135 @@ body {
   color: #666;
   margin: 0 0 20px;
   font-size: 0.9rem;
+}
+.dot {
+  margin-top: 50px;
+  width: 10px;
+  height: 10px;
+  background-color: #007b65;
+  border-radius: 50%;
+  display: inline-block;
+}
+.price {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f7fa;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 10vh;
+}
+
+.price-container {
+  gap: 20px;
+  max-width: 1200px;
+  text-align: center;
+  justify-content: center;
+}
+.price-title {
+  text-align: center;
+  margin-bottom: 90px;
+}
+
+.price-title h1 {
+  font-size: 2em;
+  color: #333;
+  margin: 0;
+}
+
+.price-title p {
+  font-size: 1em;
+  color: #666;
+  margin: 5px 0 40px;
+}
+
+.price-cards {
+  display: inline-block;
+  gap: 20px;
+  flex-wrap: wrap;
+  margin-top: 40px;
+  background: #fff;
+  border-radius: 8px;
+  box-shadow: 0 8px 6px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  text-align: center;
+  width: 300px;
+  transition: transform 9s ease, box-shadow 0.3s ease;
+}
+.price-cards:hover {
+  transform: translateY(-10px);
+}
+
+.featured {
+  display: inline-block;
+  gap: 20px;
+  flex-wrap: wrap;
+  margin-top: 40px;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  text-align: center;
+  width: 300px;
+  transition: transform 9s ease, box-shadow 0.3s ease;
+  background-color: #006d5b;
+  color: #fff;
+}
+.featured:hover {
+  transform: translateY(-5px);
+}
+.featured-btn {
+  background: #007b65;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 4px;
+  font-size: 1em;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+.featured-btn:hover {
+  background: #fff;
+  color: #006d5b;
+}
+.price-cards h3 {
+  margin: 0 0 10px;
+  font-size: 1.5em;
+}
+
+.price-cards p {
+  font-size: 1em;
+  margin: 10px 0;
+}
+
+.price-card {
+  font-size: 3em;
+  margin: 15px 0;
+  color: inherit;
+}
+
+.price-features {
+  margin: 20px 0;
+  padding: 0;
+}
+
+.price-features li {
+  list-style: none;
+  margin: 5px 0;
+}
+
+.price-cards button {
+  background: #007b65;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 4px;
+  font-size: 1em;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.price-cards button:hover {
+  background: #fff;
+  color: #006d5b;
 }
