@@ -492,7 +492,7 @@ body {
   margin-top: 50px;
   width: 10px;
   height: 10px;
-  background-color: #007b65;
+  background-color: #02897a;
   border-radius: 50%;
   display: inline-block;
 }
@@ -544,7 +544,7 @@ body {
   transition: transform 9s ease, box-shadow 0.3s ease;
 }
 .price-cards:hover {
-  transform: translateY(-10px);
+  transform: translateY(10px);
 }
 
 .featured {
@@ -562,7 +562,7 @@ body {
   color: #fff;
 }
 .featured:hover {
-  transform: translateY(-5px);
+  transform: translateY(5px);
 }
 .featured-btn {
   background: #007b65;
