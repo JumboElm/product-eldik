@@ -534,50 +534,21 @@ body {
   display: inline-block;
   gap: 20px;
   flex-wrap: wrap;
-  margin-top: 40px;
+  margin-top: 30px;
   background: #fff;
   border-radius: 8px;
   box-shadow: 0 8px 6px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
   padding: 20px;
   text-align: center;
   width: 300px;
-  transition: transform 9s ease, box-shadow 0.3s ease;
+  transition: 0.3s;
 }
 .price-cards:hover {
-  transform: translateY(10px);
+  background: #006d5b;
+  color: #fff;
 }
 
-.featured {
-  display: inline-block;
-  gap: 20px;
-  flex-wrap: wrap;
-  margin-top: 40px;
-  border-radius: 8px;
-  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-  padding: 20px;
-  text-align: center;
-  width: 300px;
-  transition: transform 9s ease, box-shadow 0.3s ease;
-  background-color: #006d5b;
-  color: #fff;
-}
-.featured:hover {
-  transform: translateY(5px);
-}
-.featured-btn {
-  background: #007b65;
-  color: #fff;
-  border: none;
-  padding: 10px 20px;
-  border-radius: 4px;
-  font-size: 1em;
-  cursor: pointer;
-  transition: background 0.3s ease;
-}
-.featured-btn:hover {
-  background: #fff;
-  color: #006d5b;
-}
 .price-cards h3 {
   margin: 0 0 10px;
   font-size: 1.5em;
