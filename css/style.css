@@ -620,6 +620,7 @@ body {
 
 .commentator {
   display: inline-block;
+  margin-right: 64px;
   background-color: #f4f4f4;
   border: 1px solid #ddd;
   border-radius: 10px;
@@ -627,6 +628,9 @@ body {
   max-width: 300px;
   text-align: left;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+.commentator:last-child {
+  margin-right: 0;
 }
 
 .commentator-text {
@@ -737,9 +741,11 @@ footer {
   margin-left: 251px;
   min-width: 200px;
 }
+.footer-logo a {
+  text-decoration: none;
+}
 
 .footer-logo h2 {
-  text-decoration: none;
   color: #062d5b;
   margin-bottom: 10px;
 }
